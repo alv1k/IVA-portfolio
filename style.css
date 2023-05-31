@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+body{
+    font-family: Jost;
+}
+
+@media screen {
+        
+    main{
+        background-color: aqua;
+        height: 500px;;
+    }
+    .header_div{
+        height: 400px;
+        background-image: url(bg.jpg);
+        background-size: 100% 100%;
+    }
+    .header_div__image{
+        width: 250px;
+    }
+    .my_images_1:active{
+        transition: 1s;
+        height: 800px;
+    }
+}
+@media(max-width: 992px) {
+    .header_div__image{
+        padding-top: 180px;
+        width: 200px;
+    }
+
+}
